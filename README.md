@@ -1,6 +1,6 @@
 # Natural-Language-Processing-with-TensorFlow
 
-### 1) Text Classification 
+### 1) Text Classification using simple Neural Network
    #### Dataset : https://storage.googleapis.com/wdd-2-node.appspot.com/x1.json
    Classifying news headlines as sarcastic and non-sarcastic. Sequential neural network model has been used with the embedding layer, elatten layer, dense layer with activation function 'relu' and dense layer with activation function 'sigmoid'.
    
