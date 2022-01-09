@@ -5,9 +5,13 @@
    Classifying news headlines as sarcastic and non-sarcastic. Sequential neural network model has been used with the following layers:
    
    Embedding layer 
+   
    Flatten layer
+   
    Dense layer with activation function 'relu'
+   
    Dense layer with activation function 'sigmoid'.
+   
    Compilation of the model is performed using loss - binary_crossentropy, optimizer='adam' and metrics= accuracy.
    
    ##### Embeddings projection on TensorFlow projector:
