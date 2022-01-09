@@ -2,15 +2,7 @@
 
 ### 1) Text Classification 
    #### Dataset : https://storage.googleapis.com/wdd-2-node.appspot.com/x1.json
-   Classifying news headlines as sarcastic and non-sarcastic. Sequential neural network model has been used with the following layers:
-   
-   Embedding layer 
-   
-   Flatten layer
-   
-   Dense layer with activation function 'relu'
-   
-   Dense layer with activation function 'sigmoid'.
+   Classifying news headlines as sarcastic and non-sarcastic. Sequential neural network model has been used with the Embedding layer, Flatten layer, Dense layer with activation function 'relu' and Dense layer with activation function 'sigmoid'.
    
    Compilation of the model is performed using loss - binary_crossentropy, optimizer='adam' and metrics= accuracy.
    
