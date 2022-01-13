@@ -27,11 +27,12 @@
    Compilation of the model is performed using loss - binary_crossentropy, optimizer - adam and metrics - accuracy.
 
    #### Result:
-   Training accuracy - 99.86% and testing accuracy 82.74%.
+   Training accuracy - 99.98% and testing accuracy 82.43%.
    
    #### Accuracy and loss graphs :
-   ![image](https://user-images.githubusercontent.com/76790650/149244712-38dc0853-d173-4580-a22b-699240b1089f.png)
-   
-   ![image](https://user-images.githubusercontent.com/76790650/149245491-2538e834-b1f8-401d-ae94-4cbf3a3483f6.png)
+   ![image](https://user-images.githubusercontent.com/76790650/149246533-9aa56190-ce31-4f5a-adf1-e5954398578e.png)
+
+   ![image](https://user-images.githubusercontent.com/76790650/149246553-fdaa1d58-096e-43ea-a6b5-38c676205e6a.png)
+
 
 
