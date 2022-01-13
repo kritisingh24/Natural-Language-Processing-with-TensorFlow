@@ -2,7 +2,7 @@
 
 ### 1) Text Classification using simple Neural Network
    #### Dataset : https://storage.googleapis.com/wdd-2-node.appspot.com/x1.json
-   Classifying news headlines as sarcastic and non-sarcastic. Sequential neural network model has been used with the embedding layer, elatten layer, dense layer with activation function 'relu' and dense layer with activation function 'sigmoid'.
+   Classifying news headlines as sarcastic and non-sarcastic. Sequential neural network model has been used with the embedding layer, elatten layer, dense layer with            activation function 'relu' and dense layer with activation function 'sigmoid'.
    
    Compilation of the model is performed using loss - binary_crossentropy, optimizer - adam and metrics - accuracy.
    
@@ -22,7 +22,7 @@
    
 ### 2) Text Classification using LSTM
    #### Dataset : https://storage.googleapis.com/wdd-2-node.appspot.com/x1.json
-   Implementation of an LSTM model to classify news headlines as sarcastic or not_sarcastic using the same dataset. We will analyse the accuracy and loss curves for training and validation sets.        Sequential neural network model has been used with the embedding layer, two bidirectional LSTM layers with 64 and 32 as number of outputs, dense layer with activation          function 'relu' and dense layer with activation function 'sigmoid'.
+   Implementation of an LSTM model to classify news headlines as sarcastic or not_sarcastic using the same dataset. We will analyse the accuracy and loss curves for training    and validation sets.Sequential neural network model has been used with the embedding layer, two bidirectional LSTM layers with 64 and 32 as number of outputs,    dense        layer with activation function 'relu' and dense layer with activation function 'sigmoid'.
    
    Compilation of the model is performed using loss - binary_crossentropy, optimizer - adam and metrics - accuracy.
 
@@ -33,6 +33,24 @@
    ![image](https://user-images.githubusercontent.com/76790650/149246533-9aa56190-ce31-4f5a-adf1-e5954398578e.png)
 
    ![image](https://user-images.githubusercontent.com/76790650/149246553-fdaa1d58-096e-43ea-a6b5-38c676205e6a.png)
+   
+ 
+### 3) Text Classification using CNN
+   #### Dataset : https://storage.googleapis.com/wdd-2-node.appspot.com/x1.json
+   Implementation of a CNN model to classify news headlines as sarcastic or not_sarcastic using the same dataset. We will analyse the accuracy and loss curves for training      and validation sets. Sequential neural network model has been used with the embedding layer, convolutional layers with a filter size of 5, dense layer with activation        function 'relu' and dense layer with activation function 'sigmoid'.
+   
+   Compilation of the model is performed using loss - binary_crossentropy, optimizer - adam and metrics - accuracy.
+
+   #### Result:
+   Training accuracy - 99.66% and testing accuracy 84.64%. The testing accuracy of the model is better than above two models.
+   
+   #### Accuracy and loss graphs :
+   ![image](https://user-images.githubusercontent.com/76790650/149248179-51e4bd90-1830-4745-a700-c938591b1437.png)
+    
+   ![image](https://user-images.githubusercontent.com/76790650/149248192-09faef06-e284-4332-a1c9-12787bfa8732.png)
+
+  
+
 
 
 
