@@ -19,12 +19,13 @@
    
 ### 2) Text Classification using LSTM
    #### Dataset : https://storage.googleapis.com/wdd-2-node.appspot.com/x1.json
-   Implementation of an LSTM model to classify news headlines as sarcastic or not_sarcastic. We will analyse the accuracy and loss curves for training and validation sets.        Sequential neural network model has been used with the embedding layer, two bidirectional LSTM layers with 64 and 32 as number of outputs, dense layer with activation          function 'relu' and dense layer with activation function 'sigmoid'.
+   Implementation of an LSTM model to classify news headlines as sarcastic or not_sarcastic using the same dataset. We will analyse the accuracy and loss curves for training and validation sets.        Sequential neural network model has been used with the embedding layer, two bidirectional LSTM layers with 64 and 32 as number of outputs, dense layer with activation          function 'relu' and dense layer with activation function 'sigmoid'.
    
    Compilation of the model is performed using loss - binary_crossentropy, optimizer - adam and metrics - accuracy.
 
    #### Result:
-   Training accuracy - 99.99% and testing accuracy 83.36%.
+   Training accuracy - 99.86% and testing accuracy 82.74%.
    
    #### Accuracy and loss graphs :
-   ![image](https://user-images.githubusercontent.com/76790650/148669458-d1e23952-e247-444b-82a5-ab67dedc12c1.png)
+   ![image](https://user-images.githubusercontent.com/76790650/149244712-38dc0853-d173-4580-a22b-699240b1089f.png)
+
