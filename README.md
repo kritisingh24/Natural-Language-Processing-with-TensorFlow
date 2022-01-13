@@ -31,4 +31,7 @@
    
    #### Accuracy and loss graphs :
    ![image](https://user-images.githubusercontent.com/76790650/149244712-38dc0853-d173-4580-a22b-699240b1089f.png)
+   
+   ![image](https://user-images.githubusercontent.com/76790650/149245491-2538e834-b1f8-401d-ae94-4cbf3a3483f6.png)
+
 
