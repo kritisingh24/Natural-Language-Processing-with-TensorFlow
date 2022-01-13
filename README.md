@@ -20,9 +20,9 @@
    ![image](https://user-images.githubusercontent.com/76790650/149245400-551e13ea-1139-4db4-a2b9-f5b9a940032c.png)
 
    
-### 2) Text Classification using LSTM
+### 2) Text Classification using RNN(LSTM)
    #### Dataset : https://storage.googleapis.com/wdd-2-node.appspot.com/x1.json
-   Implementation of an LSTM model to classify news headlines as sarcastic or not_sarcastic using the same dataset. We will analyse the accuracy and loss curves for training    and validation sets.Sequential neural network model has been used with the embedding layer, two bidirectional LSTM layers with 64 and 32 as number of outputs,    dense        layer with activation function 'relu' and dense layer with activation function 'sigmoid'.
+   Implementation of an LSTM model to classify news headlines as sarcastic or not_sarcastic using the same dataset. We will analyse the accuracy and loss curves for training    and validation sets.Sequential neural network model has been used with the embedding layer, two bidirectional LSTM layers with 64 and 32 as number of outputs, dense          layer with activation function 'relu' and dense layer with activation function 'sigmoid'.
    
    Compilation of the model is performed using loss - binary_crossentropy, optimizer - adam and metrics - accuracy.
 
@@ -48,6 +48,21 @@
    ![image](https://user-images.githubusercontent.com/76790650/149248179-51e4bd90-1830-4745-a700-c938591b1437.png)
     
    ![image](https://user-images.githubusercontent.com/76790650/149248192-09faef06-e284-4332-a1c9-12787bfa8732.png)
+   
+   
+### 4) Text Generation using RNN(LSTM)
+   #### Dataset : https://raw.githubusercontent.com/dswh/lil_nlp_with_tensorflow/main/sonnets.txt
+   Implementation of a LSTM model to create poetry using the Shakerpeare poetry as the training data and then use the trained network to predict the next words.Sequential        neural network model has been used with the embedding layer, bidirectional LSTM layers, and dense layer with activation function 'softmax'.
+   
+   Compilation of the model is performed using loss - categorical_crossentropy, optimizer - adam and metrics - accuracy.
+
+   #### Result:
+   Training accuracy - 87.83%.
+   
+   #### Accuracy graph :
+   ![image](https://user-images.githubusercontent.com/76790650/149257956-1d10e136-0a34-4e23-a70f-1e7ec99edeaa.png)
+
+  
 
   
 
